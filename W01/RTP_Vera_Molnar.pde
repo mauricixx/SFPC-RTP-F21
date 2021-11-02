@@ -1,8 +1,9 @@
 /**
  * Recreating the Past. School For Poetic Computation. f21
  * Vera Molnar. 
- * Title: 1% de Desordre – Bleu + Rouge / 3
- * Date Created: 1979
+ * Title: I /  de Désordre bleu et rouge (C)
+ * Date Created: 1974-1978
+ * Date Re-Created: 2021
  
  basado en la matriz Color Variables
  */
