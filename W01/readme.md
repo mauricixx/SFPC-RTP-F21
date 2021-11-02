@@ -20,9 +20,8 @@ Painting on paper, quadriptych, 4 x 50 x 50 cms
  * Date Created: 1974-1978
  * Date Re-Created: 2021
  
- basado en la matriz Color Variables
- */
  
+ // Basado en la matriz del ejemplo "Color Variables"
 
 /**
  * Color Variables (Homage to Albers).
@@ -30,6 +29,8 @@ Painting on paper, quadriptych, 4 x 50 x 50 cms
  * This example creates variables for colors that may be referred to
  * in the program by a name, rather than a number.
  */
+ 
+ 
 
 size(1060, 1040);
 noStroke();
