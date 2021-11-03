@@ -1,7 +1,7 @@
 ### Recreating the Past - Vera Molnar
 
 Title: 1% de Désordre bleu et rouge (C)
-Artist(s): Vera Molnar
+Artist: Vera Molnar
 Date Created: 1979
 Painting on paper, quadriptych, 4 x 50 x 50 cms
 
