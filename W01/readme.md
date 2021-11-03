@@ -2,7 +2,7 @@
 
 Title: I /  de Désordre bleu et rouge (C)
 Artist(s): Vera Molnar
-Date Created: 1974-1978
+Date Created: 1979
 Painting on paper, quadriptych, 4 x 50 x 50 cms
 
 <p float="left">
