@@ -13,8 +13,7 @@
 ### P5js code:
 ```markdown
 
-// The core of code was taked from lissajous curve example 
-// by pyeseul [https://editor.p5js.org/pyeseul/sketches/S1em_16T]
+// The core of code was taked from lissajous curve example by pyeseul [https://editor.p5js.org/pyeseul/sketches/S1em_16T]
 // I added some color parameters and slider to control the sine movement and the color.
 
 //This Lissajous curve example is a test to recreate a part of John Whitney work titled "Permutation" from 1966. 
@@ -33,7 +32,7 @@ function setup() {
   createCanvas(580, 580);
   colorMode(HSB, 255);
   // slider has a range between 0 and 255 with a starting value of 127
-  slidercolor = createSlider(0, 255, 127);
+  slidercolor = createSlider(0, 255, 1);
   //slidercolor = createSlider(0, 255, 127);     fill(1, 176, 240);
 
   
@@ -47,7 +46,7 @@ function setup() {
 
 
 function draw() {
-background(0,0050); //when you coment this line the bg is off and you can made mandalas -_-
+background(0,09, 0,10); //when you coment this line the bg is off and you can made mandalas -_-
   
     var x = map(sin(angle), -1, 1, 0, 255); 
   slidercolor.value();
@@ -79,71 +78,73 @@ background(0,0050); //when you coment this line the bg is off and you can made m
     //y2 = cSlider.value()*sin(b*t);
     
     x4 = slidercolor.value()*sin(a*t+PI/2);
-    //x2 = cSlider.value()*sin(a*t+PI/2); // 
+    //x4 = cSlider.value()*sin(a*t+PI/2); // 
   	y4 = slidercolor.value()*sin(b*t);
-    //y2 = cSlider.value()*sin(b*t);
+    //y4 = cSlider.value()*sin(b*t);
 
 
 
-		ellipse(width/2+x, height/2+y, 6, 6); //ring 1
-        ellipse(width/2+y, height/2+x, 6, 6);
+		ellipse(width/2+x, height/2+y, 8, 8); //ring 1
+
+        ellipse(width/2+y, height/2+x, 7, 7); //ring 1 
         
 
-        ellipse(width/2+y2/1.3, height/2+x2/1.3, 6, 6);//ring 2
+        ellipse(width/2+y2/1.3, height/2+x2/1.3, 6, 7);//ring 2
            t+=9;
         }
   
   
-        fill(255, 247, 158);
-        ellipse(width/2+x3/1.5, height/2+y3/1.5, 6, 6); // ring 3
-        fill(247, 247, 158);
-        ellipse(width/2+y3/1.5, height/2+x3/1.5, 6, 6);
-           //ellipse(width/2+y, height/2+x, 6, 6, cSlider.value());
+        fill(247, 127, 250);
+        ellipse(width/2+x3/1.5, height/2+y3/1.5, 7, 7); // ring 3
+        fill(247, 127, 250);
+        ellipse(width/2+y3/1.5, height/2+x3/1.5, 7, 7);
+        fill(247, 127, 250);
+        ellipse(width/2+x3/1.5, height/2+y3/1.5, 6, 6);
            //circle(600/2+x, 600/2+y, cSlider.value());
 
+  
+
         fill(120, 247, 250);
         ellipse(width/2+y3/1.5, height/2+x3/1.5, 6, 6); // ring 3
         fill(120, 247, 250);
         ellipse(width/2+x3/1.5, height/2+y3/1.5, 6, 6); // ring 3
         fill(120, 247, 250);
-        ellipse(width/2+y3/1.5, height/2+x3/1.5, 6, 6); // ring 3
-
-  //
+        //ellipse(width/2+y3/1.5, height/2+x3/1.5, 6, 6); // ring 3
   
         fill(247, 127, 250);
-        //ellipse(width/2+x4/2, height/2+y4/2, 6, 6);
+        ellipse(width/2+x4/2, height/2+y4/2, 6, 6);
         fill(247, 147, 250);
-        //ellipse(width/2+y4/2, height/2+x4/2, 6, 6);
+        ellipse(width/2+y4/2, height/2+x4/2, 6, 6);
         //ellipse(height/2+x4/2, width/2+y4/2, 6, 6);
            //ellipse(width/2+y, height/2+x, 6, 6, cSlider.value());
            //circle(600/2+x, 600/2+y, cSlider.value());
   
   
 
-        fill(247, 247, 250);
-        //ellipse(width/2+x4/8, height/2+y4/8, 6, 6);
-          fill(247, 247, 250);
-        //ellipse(width/2+y4/8, height/2+x4/8, 6, 6);
+        fill(210, 210, 250);
+        ellipse(width/2+x4/3, height/2+y4/3, 6, 6);
+        fill(210,210, 250);
+        ellipse(width/2+y4/3, height/2+x4/3, 6, 6);
            //ellipse(width/2+y, height/2+x, 6, 6, cSlider.value());
            //circle(600/2+x, 600/2+y, cSlider.value());
   
   
-          fill(247, 127, 250);
+          fill(147, 227, 250);
         ellipse(width/2+x4/2, height/2+y4/2, 6, 6);
-        fill(247, 127, 250);
-        ellipse(width/2+y4/5, height/2+x4/5, 6, 6);
-        ellipse(height/2+x4/5, width/2+y4/5, 6, 6);
+        fill(147, 227, 250);
+        ellipse(width/2+y4/2, height/2+x4/2, 6, 6);
+        fill(147, 227, 250);
+        ellipse(width/2+x4/2, height/2+y4/2, 7, 7);
            //ellipse(width/2+y, height/2+x, 6, 6, cSlider.value());
            //circle(600/2+x, 600/2+y, cSlider.value());
 
         
-        //ellipse(width/2+x4/4, height/2+y4/4, 6, 6);
-        //ellipse(width/2+y4/4, height/2+x4/4, 6, 6);
+  
+  fill(247, 255, 150);
+        ellipse(width/2+x4/4, height/2+y4/4, 6, 6);
+   fill(247, 255, 150);
+        ellipse(width/2+y4/4, height/2+x4/4, 6, 6);
   
 }
   
 ```
-
- 
-
-
