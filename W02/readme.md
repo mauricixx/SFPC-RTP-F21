@@ -5,11 +5,16 @@
 <p style='text-align: justify;'> Técnica original: </p>
 <p style='text-align: justify;'> Técnica recreación: creative code in p5.js </p>
 
+<img src="https://raw.githubusercontent.com/mauricixx/SFPC-RTP-F21/gh-pages/W02/screen_JWhitney_Permutations.png" width="480" height="480" />
+<img src="https://raw.githubusercontent.com/mauricixx/SFPC-RTP-F21/gh-pages/W02/RTP_SFPC_Jhon_Whitney_Permutations.png" width="480" height="480" />  
+</p>
+
 
 ### P5js code:
 ```markdown
 
-// The core of code was taked from lissajous curve example by pyeseul [https://editor.p5js.org/pyeseul/sketches/S1em_16T]
+// The core of code was taked from lissajous curve example 
+// by pyeseul [https://editor.p5js.org/pyeseul/sketches/S1em_16T]
 // I added some color parameters and slider to control the sine movement and the color.
 
 //This Lissajous curve example is a test to recreate a part of John Whitney work titled "Permutation" from 1966. 
