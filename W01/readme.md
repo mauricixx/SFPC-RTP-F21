@@ -23,8 +23,7 @@ Painting on paper, quadriptych, 4 x 50 x 50 cms
  * Date Created: 1974-1978
  * Date Re-Created: 2021
  
- 
- // Basado en la matriz del ejemplo "Color Variables"
+ //Based in the matrix example "Color Variables"
 
 /**
  * Color Variables (Homage to Albers).
