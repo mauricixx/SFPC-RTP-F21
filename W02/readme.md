@@ -5,8 +5,7 @@
 <p style='text-align: justify;'> Técnica original: </p>
 <p style='text-align: justify;'> Técnica recreación: creative code in p5.js </p>
 
-<img src="https://raw.githubusercontent.com/mauricixx/SFPC-RTP-F21/gh-pages/W02/screen_JWhitney_Permutations.png" width="480" height="320" />
-<img src="https://raw.githubusercontent.com/mauricixx/SFPC-RTP-F21/gh-pages/W02/RTP_SFPC_Jhon_Whitney_Permutations.png" width="320" height="320" />  
+<img src="https://raw.githubusercontent.com/mauricixx/SFPC-RTP-F21/gh-pages/W02/screen_JWhitney_Permutations.png" width="480" height="320" /><img src="https://raw.githubusercontent.com/mauricixx/SFPC-RTP-F21/gh-pages/W02/RTP_SFPC_Jhon_Whitney_Permutations.png" width="320" height="320" />  
 </p>
 
 
