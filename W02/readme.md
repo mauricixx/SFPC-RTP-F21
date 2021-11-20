@@ -8,6 +8,7 @@
 <img src="https://raw.githubusercontent.com/mauricixx/SFPC-RTP-F21/gh-pages/W02/screen_JWhitney_Permutations.png" width="480" height="320" /><img src="https://raw.githubusercontent.com/mauricixx/SFPC-RTP-F21/gh-pages/W02/RTP_SFPC_Jhon_Whitney_Permutations.png" width="320" height="320" />  
 </p>
 
+###play with example in https://editor.p5js.org/mau/sketches/1sVYdey9w
 
 ### P5js code:
 ```markdown
